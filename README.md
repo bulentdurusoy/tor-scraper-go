@@ -53,6 +53,11 @@ Program çalıştırıldığında, çıktı dosyaları otomatik olarak
 klasörler içerisinde oluşturulur.
 ```
 
+```text
+Program çalıştığı süre boyunca tüm işlemler
+scan_report.log adlı dosyaya otomatik olarak kaydedilir.
+```
+
 ## targets.yaml Dosyası
 ```text
 Uygulama, varsayılan olarak bulunduğu dizindeki `targets.yaml` dosyasını otomatik olarak okur.
