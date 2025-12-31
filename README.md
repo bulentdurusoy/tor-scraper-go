@@ -72,6 +72,12 @@ http://abc*************************************************xyz2.onion/
 http://abc*************************************************xyz3.onion/example/path/
 ```
 
+Projeyi GitHub üzerinden indirmek için:
+```text
+git clone https://github.com/bulentdurusoy/tor-scraper-go.git
+cd tor-scraper-go
+```
+
 ##Kurulum
 ```text
 Öncelikle sistemde Go kurulu olmalıdır.
