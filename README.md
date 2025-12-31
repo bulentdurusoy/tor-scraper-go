@@ -72,7 +72,7 @@ http://abc*************************************************xyz2.onion/
 http://abc*************************************************xyz3.onion/example/path/
 ```
 
-###Kurulum
+##Kurulum
 ```text
 Öncelikle sistemde Go kurulu olmalıdır.
 
