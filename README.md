@@ -46,12 +46,12 @@ tor-scraper-go/
 ├── targets.yaml       # Taranacak hedef URL listesi
 ├── tor-scraper.exe    # Windows için derlenmiş binary dosyası
 ├── tor-scraper        # Linux için derlenmiş binary dosyası
-├── output/            # Program çalıştığında otomatik oluşan çıktı dizini
+├── output/            # Program ilk kez çalıştığında otomatik oluşan çıktı dizini
 │   └── run_YYYY-MM-DD_HH-MM-SS/
 │       └── site_adı/
 │           ├── page_timestamp.html
 │           └── page_timestamp.jpg
-├── scan_report.log    # Program çalıştığında otomatik oluşan, tarama işlemlerinin kaydedildiği log dosyası
+├── scan_report.log    # Program ilk kez çalıştığında otomatik oluşan, tarama işlemlerinin kaydedildiği log dosyası
 └── README.md          # Proje açıklaması
 
 ```
