@@ -67,9 +67,9 @@ Taramak istenilen web siteleri veya .onion adresleri,
 Program çalıştırılırken ayrıca URL parametresi verilmesine gerek yoktur.
 
 ### Örnek `targets.yaml`
-
-http://example-site1.onion/
-http://example-site2.onion/
+http://abc*************************************************xyz1.onion/
+http://abc*************************************************xyz2.onion/
+http://abc*************************************************xyz3.onion/example/path/
 ```
 
 ##Kurulum
