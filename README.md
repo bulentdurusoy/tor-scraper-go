@@ -51,7 +51,7 @@ tor-scraper-go/
 │       └── site_adı/
 │           ├── page_timestamp.html
 │           └── page_timestamp.jpg
-├── scan_report.log    # Tüm tarama işlemlerinin kaydedildiği log dosyası
+├── scan_report.log    # Program çalıştığında otomatik oluşan, tarama işlemlerinin kaydedildiği log dosyası
 └── README.md          # Proje açıklaması
 
 ```
