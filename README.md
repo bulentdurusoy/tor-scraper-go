@@ -79,11 +79,11 @@ http://abc*************************************************xyz3.onion/example/pa
 Bağımlılıkları indirmek için:
 go mod tidy
 
-Derleme
-Windows için:
+
+Windows için derleme:
 go build -o tor-scraper.exe
 
-Linux için:
+Linux için derleme:
 GOOS=linux GOARCH=amd64 go build -o tor-scraper
 
 Çalıştırma:
@@ -101,7 +101,6 @@ Linux:
 ./tor-scraper
 
 Binary Dosyalar: 
-
 Derlenmiş Windows ve Linux binary dosyaları (tor-scraper.exe ve tor-scraper)
 ```
 
