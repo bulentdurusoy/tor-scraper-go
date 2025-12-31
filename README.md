@@ -40,11 +40,20 @@ Tüm işlemler Tor Browser tarafından sağlanan SOCKS5 proxy üzerinden gerçek
 ```text
 
 tor-scraper-go/
-├── main.go # Ana program dosyası
-├── go.mod # Go modül tanımı
-├── go.sum # Bağımlılık özetleri
-├── targets.yaml # Temsili hedef listesi
-└── README.md # Proje açıklaması
+├── main.go            # Ana program dosyası (Go kaynak kodu)
+├── go.mod             # Go modül tanımı
+├── go.sum             # Bağımlılık özetleri
+├── targets.yaml       # Taranacak hedef URL listesi
+├── tor-scraper.exe    # Windows için derlenmiş binary dosyası
+├── tor-scraper        # Linux için derlenmiş binary dosyası
+├── output/            # Program çalıştığında otomatik oluşan çıktı dizini
+│   └── run_YYYY-MM-DD_HH-MM-SS/
+│       └── site_adı/
+│           ├── page_timestamp.html
+│           └── page_timestamp.jpg
+├── scan_report.log    # Tüm tarama işlemlerinin kaydedildiği log dosyası
+└── README.md          # Proje açıklaması
+
 ```
 
 ```text
