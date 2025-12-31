@@ -86,6 +86,7 @@ go build -o tor-scraper.exe
 Linux için derleme:
 GOOS=linux GOARCH=amd64 go build -o tor-scraper
 
+
 Çalıştırma:
 
 Tor Browser açık olmalı ve SOCKS5 proxy aktif olmalıdır
@@ -100,8 +101,6 @@ tor-scraper.exe
 Linux:
 ./tor-scraper
 
-Binary Dosyalar: 
-Derlenmiş Windows ve Linux binary dosyaları (tor-scraper.exe ve tor-scraper)
 ```
 
 Lisans:
