@@ -72,7 +72,7 @@ http://abc*************************************************xyz2.onion/
 http://abc*************************************************xyz3.onion/example/path/
 ```
 
-##Kurulum
+###Kurulum
 ```text
 Öncelikle sistemde Go kurulu olmalıdır.
 
@@ -90,6 +90,9 @@ GOOS=linux GOARCH=amd64 go build -o tor-scraper
 
 Tor Browser açık olmalı ve SOCKS5 proxy aktif olmalıdır
 (varsayılan: 127.0.0.1:9150).
+
+manuel:(proje dizininde)
+go run main.go
 
 Windows:
 tor-scraper.exe
