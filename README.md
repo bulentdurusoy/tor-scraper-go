@@ -97,9 +97,9 @@ tor-scraper.exe
 Linux:
 ./tor-scraper
 
-Binary Dosyalar:
+Binary Dosyalar: 
 
-Derlenmiş Windows (.exe) ve Linux binary dosyaları,
+Derlenmiş Windows ve Linux binary dosyaları (tor-scraper.exe ve tor-scraper)
 ```
 
 Lisans:
