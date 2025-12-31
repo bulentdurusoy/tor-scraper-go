@@ -55,15 +55,14 @@ klasörler içerisinde oluşturulur.
 
 ## targets.yaml Dosyası
 ```text
-Uygulama, **varsayılan olarak bulunduğu dizindeki `targets.yaml` dosyasını otomatik olarak okur**.
+Uygulama, varsayılan olarak bulunduğu dizindeki `targets.yaml` dosyasını otomatik olarak okur.
 
 Taramak istenilen web siteleri veya .onion adresleri,
-`targets.yaml` dosyası içerisine **satır satır** yazılmalıdır.
+`targets.yaml` dosyası içerisine satır satır yazılmalıdır.
 Program çalıştırılırken ayrıca URL parametresi verilmesine gerek yoktur.
 
 ### Örnek `targets.yaml`
 
-```yaml
 http://example-site1.onion/
 http://example-site2.onion/
 ```
